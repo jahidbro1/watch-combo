@@ -65,9 +65,9 @@ body{
 /* .buttons button:nth-last-child(2){
     background-color: #974848;
 } */
-.buttons button:nth-last-child(1){
+/* .buttons button:nth-last-child(1){
     background-color: #26a95f;
-}
+} */
 
 .btns{
     width: 90%;
@@ -77,9 +77,9 @@ body{
 }
 
 .btns .btn2{
-    width: 220px;
+    width: 120px;
     height: 45px;
-    background-color: #FF4C29;
+    background-color: #26a95f;
     color: #fff;
     border: none;
     font-family: 'poppins', sans-serif;
