@@ -1,0 +1,103 @@
+*,
+*::before
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background:#082032 ;
+}
+.container{
+    background-color: #334756 ;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px, 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px  rgb(208, 199, 199);
+
+}
+
+.timer-display{
+    position: relative;
+    width: 78%;
+    /* background: #974848; */
+    left: 4%;
+    font-family: 'Montserrat', sans-serif;
+    color: #f5f3fa;
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px  rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+.buttons{
+    width: 90%;
+    margin:60px auto 0 auto ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    width: 120px;
+    height: 45px;
+    background-color: #FF4C29;
+    color: #fff;
+    border: none;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 20px  rgba(0, 0, 0, 0.2);
+}
+/* .buttons button:nth-last-child(2){
+    background-color: #974848;
+} */
+.buttons button:nth-last-child(1){
+    background-color: #26a95f;
+}
+
+.btns{
+    width: 90%;
+    margin:60px auto 0 auto ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns .btn2{
+    width: 220px;
+    height: 45px;
+    background-color: #FF4C29;
+    color: #fff;
+    border: none;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 20px  rgba(0, 0, 0, 0.2);
+}
+
+.buttons button:hover{
+    /* box-shadow: 0 0 20px rgba(red, green, blue, alpha); */
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.btns .btn2:hover{
+    /* box-shadow: 0 0 20px rgba(red, green, blue, alpha); */
+    background-color: transparent;
+    color: whitesmoke;
+}    
